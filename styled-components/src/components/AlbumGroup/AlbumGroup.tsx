@@ -1,10 +1,12 @@
 import { FC, PropsWithChildren } from 'react';
-import { AlbumGroupWrapper } from './AlbumGroup.styled';
+import { AlbumGroupWrapper, AlbumList } from './AlbumGroup.styled';
 
 
 const AlbumGroup: FC<PropsWithChildren> = ({ children }) => (
 	<AlbumGroupWrapper>
-		{children}
+		<AlbumList>
+			{children}
+		</AlbumList>
 	</AlbumGroupWrapper>
 );
 

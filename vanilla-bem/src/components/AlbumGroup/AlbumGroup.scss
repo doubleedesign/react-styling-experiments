@@ -1,0 +1,11 @@
+.album-group {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 2rem 0px;
+	box-sizing: border-box;
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}

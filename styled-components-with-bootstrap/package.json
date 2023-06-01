@@ -1,7 +1,11 @@
 {
-	"name": "playground",
-	"private": true,
-	"version": "0.0.0",
+	"name": "playground-styled-components-with-bootstrap",
+	"author": "Leesa Ward",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/doubleedesign/render2023-styling-react"
+	},
+	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",

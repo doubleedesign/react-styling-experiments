@@ -19,8 +19,8 @@ const Album: FC<AlbumProps> = (props) => {
 				<img src={props.image} alt={`${props.title} album cover`}/>
 				<div>
 					<h3>{props.title}</h3>
-					<p>{props.artist} <span className={styles.caption}>{props.label}, {props.year}</span></p>
-					<a className={styles.ButtonLink} href="#">View</a>
+					<p>{props.artist}</p>
+					<span className={styles.AlbumMeta}>{props.label}, {props.year}</span>
 				</div>
 			</div>
 		</div>

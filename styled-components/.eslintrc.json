@@ -31,12 +31,21 @@
 				"allowSingleLine": false
 			}
 		],
+		"max-len": [
+			"warn",
+			{
+				"comments": 120,
+				"code": 120,
+				"tabWidth": 4
+			}
+		],
 		"object-curly-spacing": [
 			"error",
 			"always"
 		],
 		"space-in-parens": 0,
 		"array-bracket-spacing": 0,
+		"no-mixed-spaces-and-tabs": "off",
 		"computed-property-spacing": "off",
 		"space-before-function-paren": "off",
 		"no-nested-ternary": "off",

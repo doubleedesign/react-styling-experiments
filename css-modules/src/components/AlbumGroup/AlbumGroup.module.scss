@@ -1,1 +1,12 @@
-.AlbumGroup {}
+.AlbumGroup {
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 2rem 0;
+	box-sizing: border-box;
+}
+
+.AlbumList {
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}

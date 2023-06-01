@@ -1,12 +1,12 @@
-import React, { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 import styles from './AlbumGroup.module.scss';
 
-interface AlbumGroupProps {}
-
-const AlbumGroup: FC<AlbumGroupProps> = () => (
-  <div className={styles.AlbumGroup}>
-    AlbumGroup Component
-  </div>
+const AlbumGroup: FC<PropsWithChildren> = ({ children }) => (
+	<div className={styles.AlbumGroup}>
+		<div className={styles.AlbumList}>
+			{children}
+		</div>
+	</div>
 );
 
 export default AlbumGroup;

@@ -1,23 +1,12 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { meetsContrastGuidelines, shade, transparentize } from 'polished';
 import { Caption } from '../Caption/Caption.styled.ts';
 import { Button } from '../Button/Button.styled.ts';
-import { breakpointUp } from '@doubleedesign/styled-media-queries';
+import { Col } from 'react-bootstrap';
 
-export const AlbumCardWrapper = styled.div`
-    padding: 1rem;
-    width: 100%;
-    flex-basis: 100%;
-
-    ${props => breakpointUp(props.theme.breakpoints.md, css`
-        width: 50%;
-        flex-basis: 50%;
-    `)};
-
-    ${props => breakpointUp(props.theme.breakpoints.lg, css`
-        width: 33.33%;
-        flex-basis: 33.33%;
-    `)};
+export const AlbumCardWrapper = styled(Col).attrs({ xs: 12, md: 6, lg: 4 })`
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 `;
 
 export const AlbumCard = styled.div<{ primaryColor: string }>`
@@ -30,8 +19,8 @@ export const AlbumCard = styled.div<{ primaryColor: string }>`
 
     div {
         height: 100%;
-        width: 75%;
-        flex-basis: 75%;
+        width: 65%;
+        flex-basis: 65%;
         flex-grow: 1;
         display: flex;
         flex-direction: column;
