@@ -6,6 +6,13 @@ function App() {
 
 	return (
 		<AlbumGroup>
+			{ /*
+			<div className="album">
+				<div className="album__card">
+					I'm some HTML masquerading as an album card because the CSS is not scoped
+				</div>
+			</div>
+			*/}
 			<Album title="Born to Run" artist="Bruce Springsteen" year="1975" label="CBS" image="/born-to-run.png"
 			       color="#BFB0A3" link="#"/>
 			<Album title="Come on Over" artist="Shania Twain" year="1997" label="Mercury" image="/come-on-over.png"

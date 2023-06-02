@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	font-family: 'Barlow', sans-serif;
+	background: #F2F2F2;
+}
+
+h1, h2, h3, p {
+	margin: 0;
+	line-height: 1.4;
+}
+
+.caption {
+	display: block;
+	font-size: 0.8em;
+	color: #242424;
+	padding: 2px 0;
+	line-height: 1;
+}
